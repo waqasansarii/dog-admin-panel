@@ -1,0 +1,38 @@
+.main_login_div{
+    /* border: 2px solid; */
+    width: 30rem;
+    margin: 0px auto ;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 5px gray;
+}
+.login_head{
+    text-align: center;
+}
+
+.input_fields_div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+}
+.input_fields_div>.inputs{
+    height: 35px !important;
+    padding: .4rem;
+    margin-top: 1.5rem;
+    outline: navy;
+}
+.input_fields_div>button{
+    margin-top: 1.5rem;
+    padding: .5rem;
+}
+
+.login{
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+   background-color: rgb(108, 108, 243);
+}
+.login:hover{
+   background-color: rgb(95, 95, 214);
+
+}

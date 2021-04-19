@@ -1,0 +1,417 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  
+}
+
+/* header css  */
+
+.header_main_div{
+  display: flex !important;
+  justify-content: space-between !important;
+  /* padding-left: 50px; */
+  /* padding-right: 50px; */
+  /* border: 2px solid blue; */
+  width: 100%;
+}
+.navbar-collapse{
+  flex-grow: initial !important;
+}
+.socila_img{
+  width: 60px;
+  height: 60px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.socila_img_t{
+  width: 50px;
+  height: 50px;
+  margin-top: 15px;
+
+}
+.logo{
+  width: 150px;
+  height: 120px;
+  object-fit: contain;
+}
+
+/* ! Containers */
+.container-fluid {
+  padding: 7% 15% ;
+}
+/* !Headings */
+.first-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/*! Title  */
+
+.xustom_nav{
+  display: flex;
+  list-style: none;
+  padding-top: 20px;
+}
+#title {
+  text-align: left;
+  /* background: #ff4c68; */
+  /* color: #fff; */
+}
+#title .container-fluid {
+  padding: 3% 15% 1% ;
+}
+
+.nav-link{
+  color: black !important;
+}
+.nav-link:hover{
+  color: red !important;
+}
+/*! Navbar */
+
+
+/* body comp css  */
+.body_text_main_div{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 130px;
+}
+.body_text_main_div>div{
+  margin: 10px auto;
+  margin-left: 20px;
+  line-height: 1.5em !important;
+}
+.body_text_main_div>div>p{
+  margin-right: 50px;
+}
+.body_text_main_div>div>h3>strong{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1em !important;
+}
+
+.dog_img_div{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: -20px;
+}
+.dog_img{
+  transition: transform .2s;
+}
+.dog_img_div>img:hover{
+  transform: scale(1.1) !important;
+  /* transition: .8s; */
+}
+
+/* footer css  */
+
+/* .footer_main_div{
+  margin-bottom: 20px;
+  margin-left: 30px;
+  margin-top: 20px;
+} */
+#footer {
+  background: white;
+  text-align: center;
+}
+.social-btn {
+  margin: 20px 10px;
+}
+/* table css */
+
+
+.admin_panel_table_div{
+  padding: 10px 30px;
+}
+.custom_class_table{
+   border: 1px solid rgb(100, 99, 99);
+}
+
+.upload_img_div{
+  padding-left: 30px;
+  margin-bottom: 50px;
+}
+.upload_icon_img{
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  position: relative;
+
+}
+.upload_btn{
+  /* display: none; */
+  padding: 8px 15px;
+  border: navy;
+  outline: none;
+  background-color: red;
+  color: white;
+  font-weight: 600;
+  border-radius: 8px;
+}
+.upload_img{
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+}
+
+/* image list comp  */
+
+.img_list_ul{
+  list-style: none;
+  /* border: 2px solid red; */
+  width: 600px;
+  box-shadow: 0px 0px 5px gainsboro;
+  padding-left: 0px !important;
+  margin-left: 30px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+.img_list_main_div>h5{
+  margin-left: 30px;
+}
+.img_list_ul>li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-bottom: 1px solid gainsboro; 
+}
+.img_list_ul>li>button{
+  height: 40px;
+  margin-top: 20px;
+}
+
+.list_img{
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.logout_btn_div{
+  padding: 10px 25px;
+}
+
+
+/* slider css  */
+
+.slider_main_div{
+  margin: 40px 150px;
+  background-image: url('https://www.helpguide.org/wp-content/uploads/dog-resting-chin-on-persons-hand.jpg');
+  background-size: 100% 100%;
+}
+.slider_slick{
+  /* border: 2px solid red; */
+  width: 600px;
+  margin: 20px auto;
+  padding: 10px;
+}
+.slider_main_div{
+  padding: 20px 30px;
+}
+.slider_img{
+  width: 50% !important;
+  margin: 0px auto;
+  height: 50vh;
+  object-fit: contain;
+}
+.carousel-caption {
+  position: relative !important;
+  top: -80px;
+  left: 0px !important;
+  right: 0px !important;
+}
+
+.slider_heead{
+  color: white;
+}
+.img_card{
+  box-shadow: 0px 0px 10px rgb(112, 110, 110);
+  height: fit-content;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  width: 100% ;
+  text-align: center;
+  /* margin: 0px auto; */
+}
+
+.slider_btn{
+  margin-top: 15px;
+  /* margin-left: 50px; */
+}
+.upload_btn:hover{
+  opacity: .5;
+  transition: .3s;
+}
+.slick-arrow ,.slick-next{
+  /* border: 2px solid red !important; */
+  background-color: black;
+  color: black;
+}
+.slick-arrow:hover, .slick-next:hover{
+  background-color: black;
+  color: black;
+}
+.slick-arrow:active .slick-next:active{
+  background-color: black;
+}
+
+@media screen and (max-width:1040px){
+  .slider_main_div{
+    margin: 40px 10px;
+  }
+  .body_text_main_div{
+    width: 100%;
+    padding: 15px;
+  }
+
+}
+
+
+@media screen and (max-width:790px){
+  .body_text_main_div{
+    flex-wrap: wrap;
+  }
+  .dog_img_div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    /* margin: 10px auto; */
+  }
+  .dog_img_div>img{
+    text-align: center;
+    /* margin: 10px auto; */
+  }
+  .body_text_main_div>div{
+    /* width: 100%; */
+    /* padding: 15px;/ */
+    margin-left: 0px;
+  }
+  .body_text_main_div>div>p{
+    margin-right: 10px;
+  }
+}
+
+@media screen and (max-width:680px){
+  .slider_slick{
+    width: auto !important;
+  }
+  .container-fluid {
+    padding: 3% 1% 1% !important;
+  }
+  
+}
+
+@media screen and (max-width:635px){
+  .custom_class_table{
+    width: 600px !important;
+  }
+  .admin_panel_table_div{
+    padding: 10px 10px;
+    overflow-x: scroll;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .img_list_ul{
+    width: 95%;
+    margin-left: 10px;
+  }
+  .img_list_main_div>h5{
+    margin-left: 10px;
+  }
+  .slider_img{
+    height: 40vh;
+    /* width: 400px; */
+  }
+}
+@media screen and (max-width:520px){
+  .dog_img_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    text-align: center;
+  }
+  .dog_img_div>img{
+    width: 80%;
+    text-align: center;
+    margin-top: 10px;
+    margin: 10px auto !important;
+  }
+}
+
+@media screen and (max-width:460px){
+  .header_main_div{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .socila_img{
+    width: 40px;
+    height: 40px;
+  }
+  .socila_img_t{
+    width: 30px;
+    height: 30px;
+  
+  }
+  .logo{
+    width: 100px;
+    height: 80px;
+  }
+  .nav-link{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+@media screen and (max-width:460px){
+  .slider_img{
+    height: 30vh;
+  }
+  .slider_main_div{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px 15px;
+  }
+}
+@media screen and (max-width:360px){
+  .nav-link{
+    font-size: .85em !important;
+    padding-right: 3px !important;
+  }
+}
+@media screen and (max-width:350px){
+  .slider_img{
+    height: 25vh;
+  }
+  .slider_main_div{
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px 15px;
+  }
+  
+  .carousel-caption {
+    position: relative !important;
+    top: -60px;
+    left: 0px !important;
+    right: 0px !important;
+  }
+}
+
+@media screen and (max-width:370px){
+  .slider_slick{
+    width: auto !important;
+  }
+  .slider_btn{
+    padding: 5px 5px !important;
+    font-size: .8em ;
+    
+  }
+}

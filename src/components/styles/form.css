@@ -1,0 +1,91 @@
+.form_div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 160px;
+    /* border: 2px solid red; */
+
+}
+.form_div>form>div>input , .user_from>div>textarea{
+  width: 80%;
+  margin-top: 10px;
+  padding: 7px 10px;
+  outline: navy;
+  border-radius: 3px;
+  border: none;
+  font-weight: 500 !important;
+  /* border: 1px solid rgb(143, 143, 145); */
+  box-shadow: 0px 1px 5px rgb(226, 226, 226);
+}
+.form_div>form>div>input:focus , .user_from>div>textarea:focus{
+  outline-color: blue !important;
+}
+.form_div>form>button{
+    width: 98.5%;
+    margin-top: 10px;
+    padding: 9px;
+    border: navy;
+    outline: navy;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.form_div>form>button:hover{
+  opacity: .7;
+  transition: .5s;
+}
+.from_head>h3>strong{
+  font-family: 'Montserrat', sans-serif;
+  width: fit-content;
+  border-bottom: 3px solid red;
+  font-size: 1.2em ;
+}
+
+.user_from{
+  border-radius: 8px;
+  width: 95% ;
+  margin: 20px auto;
+  padding: 25px;
+  box-shadow: 0px 0px 5px rgb(201, 200, 200);
+  background-color: #f5f6fa;
+}
+.user_from>div{
+  /* border: 2px solid blue; */
+  margin-top: 8px;
+}
+.textarea_div{
+  display: flex;
+  flex-wrap: wrap;
+}
+.user_from>div>label,.user_from>div>p{
+  width: 170px;
+  font-weight: 700;
+}
+.msg_label{
+  /* display: inline; */
+  /* margin-top: -100px !important;  */
+  /* margin-bottom: 20px; */
+  padding-top: -50px;
+}
+
+@media screen and (max-width:1000px){
+  .form_div{
+    padding: 10px 30px;
+}
+}
+@media screen and (max-width:660px){
+  .user_from{
+    width: 99%;
+    padding: 10px;
+  }
+  .form_div>form>div>input , .user_from>div>textarea{
+    width: 100%;
+  }
+}
+@media screen and (max-width:420px){
+  .form_div{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
